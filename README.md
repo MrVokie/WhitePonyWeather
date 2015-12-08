@@ -6,9 +6,9 @@ iOS天气类应用。(An iOS App of Weather)
 
 ## 应用部分截图
 
-![image01](https://raw.githubusercontent.com/MrVokie/WhitePonyWeather/master/AppScreenShot/image01.png)     ![image02](https://raw.githubusercontent.com/MrVokie/WhitePonyWeather/master/AppScreenShot/image02.png)
+1)![image01](https://raw.githubusercontent.com/MrVokie/WhitePonyWeather/master/AppScreenShot/image01.png) 2)![image02](https://raw.githubusercontent.com/MrVokie/WhitePonyWeather/master/AppScreenShot/image02.png)
 
-![image03](https://raw.githubusercontent.com/MrVokie/WhitePonyWeather/master/AppScreenShot/image03.png)     ![image04](https://raw.githubusercontent.com/MrVokie/WhitePonyWeather/master/AppScreenShot/image04.png)
+3)![image03](https://raw.githubusercontent.com/MrVokie/WhitePonyWeather/master/AppScreenShot/image03.png) 4)![image04](https://raw.githubusercontent.com/MrVokie/WhitePonyWeather/master/AppScreenShot/image04.png)
 
 
 
