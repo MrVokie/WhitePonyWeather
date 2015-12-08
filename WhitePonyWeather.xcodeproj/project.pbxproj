@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E58BDA1379B23CEE9544EB6 /* libPods-WhitePonyWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 473BAE56F2417E6FEE8EBA0E /* libPods-WhitePonyWeather.a */; };
-		82201DEB351D87CE43F99305 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C03CE413B08D8E380276F6 /* libPods.a */; };
 		B00F4C1F1B8B48C700F961E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B00F4C1E1B8B48C700F961E2 /* main.m */; };
 		B00F4C221B8B48C800F961E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B00F4C211B8B48C800F961E2 /* AppDelegate.m */; };
 		B00F4C2A1B8B48C800F961E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00F4C291B8B48C800F961E2 /* Images.xcassets */; };
@@ -180,8 +178,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82201DEB351D87CE43F99305 /* libPods.a in Frameworks */,
-				6E58BDA1379B23CEE9544EB6 /* libPods-WhitePonyWeather.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
