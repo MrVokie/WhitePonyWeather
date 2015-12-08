@@ -1,8 +1,0 @@
-platform:ios, '8.0'
-pod 'MJExtension'
-pod 'AFNetworking'
-pod 'Masonry'
-pod 'FMDB'
-pod 'UMengAnalytics-NO-IDFA'
-pod 'UMengSocial'
-pod 'UMengFeedback'
