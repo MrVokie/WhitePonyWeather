@@ -1,0 +1,53 @@
+//
+//  PrefixHeader.pch
+//  WhitePonyWeather
+//
+//  Created by ci123 on 15/11/17.
+//  Copyright © 2015年 vokie. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define APP_NAME @"白驹天气"
+
+#define REQUEST_URL_HEAD @"http://api.openweathermap.org/data/2.5/"
+
+#define WEATHER_API_KEY @"0b0b4a71f90a8dd37c74fe8f38af9f3d"
+
+#define APP_SCREEN_WIDTH    [UIScreen mainScreen].bounds.size.width
+
+#define APP_SCREEN_HEIGHT   [UIScreen mainScreen].bounds.size.height
+
+#define CURRENT_SYSTEM_VERSION  [[[UIDevice currentDevice] systemVersion] floatValue]
+
+#define GREAT_THAN_IOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
+
+#define LESS_THAN_IOS8  ([[[UIDevice currentDevice] systemVersion] floatValue] <= 8)
+
+#define TICK    NSDate *startTime = [NSDate date];
+
+#define TOCK    NSLog(@"Tick Tock: %f", -[startTime timeIntervalSinceNow]);
+
+#define UIColorMake(r,g,b,a)  [[UIColor alloc] initWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a/1.0f]
+
+
+#define DEBUG_LOG
+
+#ifdef DEBUG_LOG
+#define NSSLog(fmt, ...) {NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);}
+#else
+#define NSSLog(...)
+#endif
+
+
+/////////INCLUDE HEADER/////////
+#include "MJExtension.h"
+#import "AFNetworking.h"
+
+////////////////////////////////
+
+#endif /* PrefixHeader_pch */

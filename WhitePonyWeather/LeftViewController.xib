@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LeftViewController">
+            <connections>
+                <outlet property="leftBgImageView" destination="PLy-iD-Rhd" id="nfG-3f-Stg"/>
+                <outlet property="sideTableView" destination="hFc-OH-RmV" id="nUB-j6-iJG"/>
+                <outlet property="userImageView" destination="kYY-Yx-dsJ" id="J2K-bw-Sm4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud_bg_left" translatesAutoresizingMaskIntoConstraints="NO" id="PLy-iD-Rhd">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <animations/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="hFc-OH-RmV">
+                    <rect key="frame" x="0.0" y="202" width="375" height="465"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user_icon" translatesAutoresizingMaskIntoConstraints="NO" id="kYY-Yx-dsJ">
+                    <rect key="frame" x="102" y="55" width="80" height="80"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.87956425467914434" green="0.87956425467914434" blue="0.87956425467914434" alpha="1" colorSpace="calibratedRGB"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="kYY-Yx-dsJ" secondAttribute="height" multiplier="1:1" id="Z5G-6t-tw8"/>
+                        <constraint firstAttribute="height" constant="80" id="mx1-te-aP6"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="MlT-SO-74c" appends="YES" id="ayR-qx-Wzz"/>
+                    </connections>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="白驹小V" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZL9-Rg-ouQ">
+                    <rect key="frame" x="107" y="143" width="72.5" height="24"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="0.94969223484848486" green="0.94969223484848486" blue="0.94969223484848486" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <size key="shadowOffset" width="1" height="1"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="hFc-OH-RmV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="BeB-SK-W7e"/>
+                <constraint firstAttribute="trailing" secondItem="hFc-OH-RmV" secondAttribute="trailing" id="GqJ-Gs-0FO"/>
+                <constraint firstItem="PLy-iD-Rhd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="M1h-fz-mG1"/>
+                <constraint firstAttribute="centerX" secondItem="kYY-Yx-dsJ" secondAttribute="centerX" constant="45" id="Vqy-01-wHV"/>
+                <constraint firstItem="hFc-OH-RmV" firstAttribute="top" secondItem="ZL9-Rg-ouQ" secondAttribute="bottom" constant="35" id="YBU-w8-ddL"/>
+                <constraint firstItem="PLy-iD-Rhd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="a1A-lC-cnh"/>
+                <constraint firstItem="kYY-Yx-dsJ" firstAttribute="centerX" secondItem="ZL9-Rg-ouQ" secondAttribute="centerX" constant="-0.5" id="aKo-DA-H11"/>
+                <constraint firstAttribute="trailing" secondItem="PLy-iD-Rhd" secondAttribute="trailing" id="e0g-HD-uPO"/>
+                <constraint firstAttribute="bottom" secondItem="PLy-iD-Rhd" secondAttribute="bottom" id="i7N-Dw-q7t"/>
+                <constraint firstItem="kYY-Yx-dsJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="55" id="lc2-7z-PUz"/>
+                <constraint firstAttribute="bottom" secondItem="hFc-OH-RmV" secondAttribute="bottom" id="tVr-hv-cLH"/>
+                <constraint firstItem="ZL9-Rg-ouQ" firstAttribute="top" secondItem="kYY-Yx-dsJ" secondAttribute="bottom" constant="8" id="xzN-Vs-adS"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="-129.5" y="-53.5"/>
+        </view>
+        <tapGestureRecognizer numberOfTouchesRequired="0" id="MlT-SO-74c">
+            <connections>
+                <action selector="userIconTap:" destination="-1" id="wJ4-D8-U3A"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="cloud_bg_left" width="250" height="400"/>
+        <image name="user_icon" width="128" height="128"/>
+    </resources>
+</document>
