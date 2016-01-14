@@ -39,11 +39,9 @@
     [self initUI];
     
     //初始化GPS定位服务
-    [self initGPS];
+    [self initGPSComponent];
     
-    _geocoder=[[CLGeocoder alloc]init];
-    
-//
+    //添加通知监听器
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(chooseNewCity:) name:@"Choose_New_City" object:nil];
 }
 
@@ -98,12 +96,14 @@
     [self requestWeatherByLongitude:@([[UserInfo sharedUserInfo].lon floatValue]) Latitude:@([[UserInfo sharedUserInfo].lat floatValue])];
 }
 
-- (void)initGPS{
+- (void)initGPSComponent{
     NSSLog(@"初始化GPS定位");
     [self showWaitIndicator];
     //-----------------定位------------------
-    _locationManager=[[CLLocationManager alloc]init];
-    _locationManager.delegate=self;
+    _locationManager = [[CLLocationManager alloc]init];
+    _locationManager.delegate = self;
+    
+    _geocoder=[[CLGeocoder alloc]init];
     
     if (![CLLocationManager locationServicesEnabled]) {
         //NSSLog(@"定位服务当前可能尚未打开，请设置打开！");
@@ -114,10 +114,10 @@
 
 - (void)configLocationManager {
     //设置定位精度
-    _locationManager.desiredAccuracy=kCLLocationAccuracyBest;
+    _locationManager.desiredAccuracy = kCLLocationAccuracyBest;
     //定位频率,每隔多少米定位一次
-    CLLocationDistance distance=10.0;//十米定位一次
-    _locationManager.distanceFilter=distance;
+    CLLocationDistance distance = 10.0;//十米定位一次
+    _locationManager.distanceFilter = distance;
 }
 
 //设置代理后(启动时)调用，定位权限改变时调用
@@ -272,8 +272,8 @@
     [[NSUserDefaults standardUserDefaults] setDouble:latitude forKey:@"lat"];
     [[NSUserDefaults standardUserDefaults] setDouble:longitude forKey:@"lon"];
     
-    NSString *sqlString = [NSString stringWithFormat:@"insert into location(name, lat, lon) values(\"%@\", %f, %f)",addressName, latitude, longitude];
-    [[DBManager sharedManager]updateWithSQL:sqlString];
+    //保存到数据库
+    [[DBManager sharedManager]insertCityName:addressName latitude:Double2String(latitude) longtitude:Double2String(longitude)];
 }
 
 - (void)showLeftView{

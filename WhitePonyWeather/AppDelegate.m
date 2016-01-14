@@ -21,14 +21,8 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    //友盟统计
-    [MobClick startWithAppkey:@"564fca6467e58e3b3f003d91" reportPolicy:BATCH channelId:@"Test"];
-    //友盟反馈
-    [UMFeedback setAppkey:@"564fca6467e58e3b3f003d91"];
-    //反馈语音输入
-    [UMOpus setAudioEnable:YES];
-    //友盟分享
-    [UMSocialData setAppKey:@"564fca6467e58e3b3f003d91"];
+    //初始化SDK
+    [self initSDK];
     
     [[DBManager sharedManager]initDataBase];
     
@@ -88,6 +82,18 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - 自定义内部函数
+- (void)initSDK {
+    //友盟统计
+    [MobClick startWithAppkey:@"564fca6467e58e3b3f003d91" reportPolicy:BATCH channelId:@"Test"];
+    //友盟反馈
+    [UMFeedback setAppkey:@"564fca6467e58e3b3f003d91"];
+    //反馈语音输入
+    [UMOpus setAudioEnable:YES];
+    //友盟分享
+    [UMSocialData setAppKey:@"564fca6467e58e3b3f003d91"];
 }
 
 @end

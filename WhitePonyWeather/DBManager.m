@@ -58,9 +58,10 @@
                 NSSLog(@"创表失败");
             }
         }
+        
+        //插入默认城市的经纬度信息。
         [self insertDefaultCityIntoTable];
     }
-    
 }
 
 //查询
@@ -80,9 +81,9 @@
     return mArray;
 }
 
-- (void)updateWithSQL:(NSString *)string {
-    NSSLog(@"SQL>>>>>   %@", string);
-    [self.db executeUpdate:string];
+
+- (void)insertCityName:(NSString *)cityName latitude:(NSString *)lat longtitude:(NSString *)lon {
+    [self.db executeUpdate:@"insert into defaultlocation(name, lat, lon) values(?, ?, ?)", cityName, lat, lon];
 }
 
 - (void)insertDefaultCityIntoTable {
@@ -95,7 +96,7 @@
                            @[@"合肥市",@"31.52", @"117.17"]
                            ];
         for (NSArray *cityInfo in array) {
-            [self updateWithSQL:[NSString stringWithFormat:@"insert into defaultlocation(name, lat, lon) values(\"%@\", %@, %@)",cityInfo[0], cityInfo[1], cityInfo[2]]];
+            [self insertCityName:cityInfo[0] latitude:cityInfo[1] longtitude:cityInfo[2]];
         }
         
     }

@@ -16,7 +16,7 @@
 
 - (void)createTables;
 
-- (void)updateWithSQL:(NSString *)string;
+- (void)insertCityName:(NSString *)cityName latitude:(NSString *)lat longtitude:(NSString *)lon;
 
 - (NSMutableArray *)queryWithSQL:(NSString *)string;
 
