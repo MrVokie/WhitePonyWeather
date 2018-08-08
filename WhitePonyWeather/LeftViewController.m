@@ -12,8 +12,6 @@
 #import "VOKViewController.h"
 #import "ChartGraphViewController.h"
 #import "LocationViewController.h"
-#import "UMFeedback.h"
-#import "UMSocial.h"
 #import "SocialViewController.h"
 #import "UserSettingsViewController.h"
 #import "ThemeViewController.h"
@@ -137,13 +135,7 @@
             
             break;
         }case 5:{         //反馈
-            dispatch_async(dispatch_get_main_queue(), ^{
-                UIViewController *vc = [UMFeedback feedbackModalViewController];
-
-                [[VOKViewController sharedVKViewController]presentViewController:vc animated:YES completion:^{
-
-                }];
-            });
+            NSLog(@"Feedback event");
             break;
         }case 6:{         //设置
             dispatch_async(dispatch_get_main_queue(), ^{

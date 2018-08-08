@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E2756794CDB3F7C930E406B /* libPods-WhitePonyWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 473BAE56F2417E6FEE8EBA0E /* libPods-WhitePonyWeather.a */; };
+		138EBAAE0B054906E933714A /* libPods-WhitePonyWeatherTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B539B49D8E87A30089910095 /* libPods-WhitePonyWeatherTests.a */; };
+		5BC83823B44F6D02BB0C8E8D /* libPods-WhitePonyWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDFB05DD78B01CE9BFC42EC /* libPods-WhitePonyWeather.a */; };
 		B00F4C1F1B8B48C700F961E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B00F4C1E1B8B48C700F961E2 /* main.m */; };
 		B00F4C221B8B48C800F961E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B00F4C211B8B48C800F961E2 /* AppDelegate.m */; };
 		B00F4C2A1B8B48C800F961E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00F4C291B8B48C800F961E2 /* Images.xcassets */; };
@@ -73,9 +74,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		473BAE56F2417E6FEE8EBA0E /* libPods-WhitePonyWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhitePonyWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CDC342E1A0550457603FDBC /* Pods-WhitePonyWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhitePonyWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhitePonyWeather/Pods-WhitePonyWeather.debug.xcconfig"; sourceTree = "<group>"; };
-		8C94D3840E6FEE3743FEFA97 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		0EDFB05DD78B01CE9BFC42EC /* libPods-WhitePonyWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhitePonyWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97834CAC18EC8C528F854F8C /* Pods-WhitePonyWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhitePonyWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhitePonyWeather/Pods-WhitePonyWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		9C1D81C08FCF860C0F4314CB /* Pods-WhitePonyWeatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhitePonyWeatherTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhitePonyWeatherTests/Pods-WhitePonyWeatherTests.release.xcconfig"; sourceTree = "<group>"; };
+		AC55CEBDC11176DE1C525B4E /* Pods-WhitePonyWeatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhitePonyWeatherTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhitePonyWeatherTests/Pods-WhitePonyWeatherTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B00F4C191B8B48C700F961E2 /* WhitePonyWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhitePonyWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00F4C1D1B8B48C700F961E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B00F4C1E1B8B48C700F961E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -123,7 +125,7 @@
 		B0DEF9221B9F067E0071D8D8 /* OneCellStyleActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneCellStyleActivity.h; sourceTree = "<group>"; };
 		B0DEF9231B9F067E0071D8D8 /* OneCellStyleActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneCellStyleActivity.m; sourceTree = "<group>"; };
 		B0DEF9251B9F169D0071D8D8 /* ActivityList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ActivityList.plist; sourceTree = "<group>"; };
-		B2C03CE413B08D8E380276F6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B539B49D8E87A30089910095 /* libPods-WhitePonyWeatherTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WhitePonyWeatherTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B806DBC71B9887F1002C10D2 /* CurrentWeatherModelOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentWeatherModelOne.h; sourceTree = "<group>"; };
 		B806DBC81B9887F1002C10D2 /* CurrentWeatherModelOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentWeatherModelOne.m; sourceTree = "<group>"; };
 		B806DBCA1B9889AE002C10D2 /* MainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
@@ -170,8 +172,7 @@
 		B8B9CA1B1B97DA6400296632 /* SideCellStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideCellStyle.h; sourceTree = "<group>"; };
 		B8B9CA1C1B97DA6400296632 /* SideCellStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideCellStyle.m; sourceTree = "<group>"; };
 		B8B9CA1D1B97DA6400296632 /* SideCellStyle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideCellStyle.xib; sourceTree = "<group>"; };
-		C9AE7DEE486512079BF5AAA8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		D4A1C1883142A08C2DA9B038 /* Pods-WhitePonyWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhitePonyWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhitePonyWeather/Pods-WhitePonyWeather.release.xcconfig"; sourceTree = "<group>"; };
+		E2653D4F64E72EAE4EA6D7D0 /* Pods-WhitePonyWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhitePonyWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhitePonyWeather/Pods-WhitePonyWeather.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,7 +180,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E2756794CDB3F7C930E406B /* libPods-WhitePonyWeather.a in Frameworks */,
+				5BC83823B44F6D02BB0C8E8D /* libPods-WhitePonyWeather.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,17 +188,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				138EBAAE0B054906E933714A /* libPods-WhitePonyWeatherTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AB1617B0DA8C32B699E7E85 /* Frameworks */ = {
+		1CE43C1492CD6D950DCC68A5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B2C03CE413B08D8E380276F6 /* libPods.a */,
-				473BAE56F2417E6FEE8EBA0E /* libPods-WhitePonyWeather.a */,
+				97834CAC18EC8C528F854F8C /* Pods-WhitePonyWeather.debug.xcconfig */,
+				E2653D4F64E72EAE4EA6D7D0 /* Pods-WhitePonyWeather.release.xcconfig */,
+				AC55CEBDC11176DE1C525B4E /* Pods-WhitePonyWeatherTests.debug.xcconfig */,
+				9C1D81C08FCF860C0F4314CB /* Pods-WhitePonyWeatherTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8659CDA8500DE4859219D36C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EDFB05DD78B01CE9BFC42EC /* libPods-WhitePonyWeather.a */,
+				B539B49D8E87A30089910095 /* libPods-WhitePonyWeatherTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,8 +221,8 @@
 				B00F4C1B1B8B48C700F961E2 /* WhitePonyWeather */,
 				B00F4C351B8B48C800F961E2 /* WhitePonyWeatherTests */,
 				B00F4C1A1B8B48C700F961E2 /* Products */,
-				FCBC1B37B7630F20E8BA2379 /* Pods */,
-				1AB1617B0DA8C32B699E7E85 /* Frameworks */,
+				1CE43C1492CD6D950DCC68A5 /* Pods */,
+				8659CDA8500DE4859219D36C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -487,17 +500,6 @@
 			name = Settings;
 			sourceTree = "<group>";
 		};
-		FCBC1B37B7630F20E8BA2379 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C9AE7DEE486512079BF5AAA8 /* Pods.debug.xcconfig */,
-				8C94D3840E6FEE3743FEFA97 /* Pods.release.xcconfig */,
-				5CDC342E1A0550457603FDBC /* Pods-WhitePonyWeather.debug.xcconfig */,
-				D4A1C1883142A08C2DA9B038 /* Pods-WhitePonyWeather.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -505,12 +507,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B00F4C3C1B8B48C800F961E2 /* Build configuration list for PBXNativeTarget "WhitePonyWeather" */;
 			buildPhases = (
-				8DE233ADD704B9BBB8481082 /* Check Pods Manifest.lock */,
+				7FC2B7FECF941774C9F97785 /* [CP] Check Pods Manifest.lock */,
 				B00F4C151B8B48C700F961E2 /* Sources */,
 				B00F4C161B8B48C700F961E2 /* Frameworks */,
 				B00F4C171B8B48C700F961E2 /* Resources */,
-				913E52B8A663A2BB5891E419 /* Copy Pods Resources */,
-				9F2901CF8D4BA2D4F552F14F /* Embed Pods Frameworks */,
+				AF3462F42224306F52640C15 /* [CP] Embed Pods Frameworks */,
+				8DC9A250F887F57D7E513250 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -525,9 +527,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B00F4C3F1B8B48C800F961E2 /* Build configuration list for PBXNativeTarget "WhitePonyWeatherTests" */;
 			buildPhases = (
+				C4EEA060F3EC8A9F98CE9A3F /* [CP] Check Pods Manifest.lock */,
 				B00F4C2E1B8B48C800F961E2 /* Sources */,
 				B00F4C2F1B8B48C800F961E2 /* Frameworks */,
 				B00F4C301B8B48C800F961E2 /* Resources */,
+				E4B2144B53680BDB596396CB /* [CP] Embed Pods Frameworks */,
+				C8777E25382542415D8CC00F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -609,49 +614,159 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8DE233ADD704B9BBB8481082 /* Check Pods Manifest.lock */ = {
+		7FC2B7FECF941774C9F97785 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhitePonyWeather-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		913E52B8A663A2BB5891E419 /* Copy Pods Resources */ = {
+		8DC9A250F887F57D7E513250 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WhitePonyWeather/Pods-WhitePonyWeather-resources.sh",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/zh-Hans.lproj/UMFeedbackLocalizable.strings",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/bubble_min@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/cancel@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/microphone@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/save@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/ToolViewInputText@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/ToolViewInputTextHL@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/ToolViewInputVoice@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/ToolViewInputVoiceHL@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/umeng_add_photo@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/umeng_fb_audio_dialog_cancel@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/umeng_fb_audio_dialog_content@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/umeng_fb_audio_play_01@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/umeng_fb_audio_play_02@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/umeng_fb_audio_play_03@2x.png",
+				"${PODS_ROOT}/UMengFeedback/UMFeedback_iOS_2.3.4/UMengFeedback_SDK/Resources/umeng_fb_audio_play_default@2x.png",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_4.4/UMSocialSDKResourcesNew.bundle",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.bundle",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_4.4/SocialSDKXib/UMSCommentDetailController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_4.4/SocialSDKXib/UMSCommentInputController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_4.4/SocialSDKXib/UMSCommentInputControlleriPad.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_4.4/SocialSDKXib/UMShareEditViewController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_4.4/SocialSDKXib/UMShareEditViewControlleriPad.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_4.4/SocialSDKXib/UMSLoginViewController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_4.4/SocialSDKXib/UMSnsAccountViewController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_4.4/SocialSDKXib/UMSShareListController.xib",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_4.4/en.lproj",
+				"${PODS_ROOT}/UMengSocial/Umeng_SDK_Social_iOS_ARM64_4.4/UMSocial_Sdk_4.4/zh-Hans.lproj",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMFeedbackLocalizable.strings",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bubble_min@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/cancel@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/microphone@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/save@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ToolViewInputText@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ToolViewInputTextHL@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ToolViewInputVoice@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ToolViewInputVoiceHL@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/umeng_add_photo@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/umeng_fb_audio_dialog_cancel@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/umeng_fb_audio_dialog_content@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/umeng_fb_audio_play_01@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/umeng_fb_audio_play_02@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/umeng_fb_audio_play_03@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/umeng_fb_audio_play_default@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResourcesNew.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSCommentDetailController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSCommentInputController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSCommentInputControlleriPad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMShareEditViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMShareEditViewControlleriPad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSLoginViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSnsAccountViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSShareListController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhitePonyWeather/Pods-WhitePonyWeather-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9F2901CF8D4BA2D4F552F14F /* Embed Pods Frameworks */ = {
+		AF3462F42224306F52640C15 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhitePonyWeather/Pods-WhitePonyWeather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4EEA060F3EC8A9F98CE9A3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhitePonyWeatherTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8777E25382542415D8CC00F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhitePonyWeatherTests/Pods-WhitePonyWeatherTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4B2144B53680BDB596396CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhitePonyWeatherTests/Pods-WhitePonyWeatherTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -816,7 +931,7 @@
 		};
 		B00F4C3D1B8B48C800F961E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5CDC342E1A0550457603FDBC /* Pods-WhitePonyWeather.debug.xcconfig */;
+			baseConfigurationReference = 97834CAC18EC8C528F854F8C /* Pods-WhitePonyWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -837,7 +952,7 @@
 		};
 		B00F4C3E1B8B48C800F961E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4A1C1883142A08C2DA9B038 /* Pods-WhitePonyWeather.release.xcconfig */;
+			baseConfigurationReference = E2653D4F64E72EAE4EA6D7D0 /* Pods-WhitePonyWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -857,6 +972,7 @@
 		};
 		B00F4C401B8B48C800F961E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC55CEBDC11176DE1C525B4E /* Pods-WhitePonyWeatherTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -877,6 +993,7 @@
 		};
 		B00F4C411B8B48C800F961E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C1D81C08FCF860C0F4314CB /* Pods-WhitePonyWeatherTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

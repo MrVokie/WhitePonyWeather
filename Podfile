@@ -6,9 +6,6 @@ target 'WhitePonyWeather' do
 	pod 'AFNetworking'
 	pod 'Masonry'
 	pod 'FMDB'
-	pod 'UMengAnalytics-NO-IDFA'
-	pod 'UMengSocial'
-	pod 'UMengFeedback'
 end
 
 target 'WhitePonyWeatherTests' do

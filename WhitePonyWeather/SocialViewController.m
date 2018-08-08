@@ -7,9 +7,8 @@
 //
 
 #import "SocialViewController.h"
-#import "UMSocial.h"
 
-@interface SocialViewController ()<UMSocialUIDelegate>
+@interface SocialViewController ()
 
 @end
 
@@ -42,31 +41,16 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (void)didFinishGetUMSocialDataInViewController:(UMSocialResponseEntity *)response {
-    NSString *resultString = @"";
-    if (response.responseCode == UMSResponseCodeSuccess) {
-        resultString = @"分享成功啦!";
-    }else if (response.responseCode == UMSResponseCodeCancel) {
-        resultString = @"您取消分享了:（";
-    }else {
-        resultString = [NSString stringWithFormat:@"分享失败，失败Code:%d", response.responseCode];
-    }
-    
-    [[[UIAlertView alloc]initWithTitle:@"提示" message:resultString delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] show];
-}
+
 
 - (IBAction)ShareAgainButtonClick:(id)sender {
     [self share];
 }
 
 - (void)share {
-    NSString *shareText = [NSString stringWithFormat:@"【白驹天气】vokie向您分享南京市的天气情况:2014年5月13日，天气晴朗，最高温度22度，最低温度17度。"];
+    NSString *shareText = [NSString stringWithFormat:@"【白驹天气】向您分享xx市的天气情况:2014年5月13日，天气晴朗，最高温度22度，最低温度17度。"];
     
-    [UMSocialSnsService presentSnsIconSheetView:self appKey:@"564fca6467e58e3b3f003d91"
-        shareText:shareText
-        shareImage:nil
-        shareToSnsNames:[NSArray arrayWithObjects:UMShareToSms,  UMShareToEmail, UMShareToSina, UMShareToDouban, UMShareToRenren, nil]
-        delegate:self];
+    NSLog(shareText);
 }
 
 - (void)didReceiveMemoryWarning {
